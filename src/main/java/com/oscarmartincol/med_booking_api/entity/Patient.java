@@ -4,13 +4,13 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class Patient extends User{
-    private String fullname;
+    private String fullName;
 
-    public String getFullname() {
-        return fullname;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 }
