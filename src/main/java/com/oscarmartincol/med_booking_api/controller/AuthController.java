@@ -4,7 +4,6 @@ import com.oscarmartincol.med_booking_api.dto.AuthRequest;
 import com.oscarmartincol.med_booking_api.dto.AuthResponse;
 import com.oscarmartincol.med_booking_api.service.AuthService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.web.webauthn.api.AuthenticatorResponse;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
